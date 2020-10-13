@@ -1,0 +1,74 @@
+<!-- ADVANCED SEARCH -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Advanced Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="search_frontend.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="wrapper">
+        <ul>
+            <li><a class="links" href="#user"><button class="sign_in" type="button">Sign in</button></a></li>
+            <li><a href="#grid"><img class="grid" src="grid.PNG" title="Google apps"></a></li>
+            <li><a href="index.html">Google Search</a></li>
+        </ul>
+        <form action="https://google.com/search" method="GET" id="advancedsearchform">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="advanced_header">Advanced Search</h1>
+                    </div>
+                </div>
+                <hr class="hr_thin">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="advanced_header2">Find pages with...</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <label class="advanced_search_label" for="as_q">all these words:</label>
+                    </div>
+                    <div class="col-8">
+                        <input class="advanced_search_box" type="text" name="as_q">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <label class="advanced_search_label" for="as_epq">this exact word or phrase:</label>
+                    </div>
+                    <div class="col-8">
+                        <input class="advanced_search_box" type="text" name="as_epq">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <label class="advanced_search_label" for="as_oq">any of these words:</label>
+                    </div>
+                    <div class="col-8">
+                        <input class="advanced_search_box" type="text" name="as_oq">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <label class="advanced_search_label" for="as_eq">none of these words:</label>
+                    </div>
+                    <div class="col-8">
+                        <input class="advanced_search_box" type="text" name="as_eq">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <input class="blue_button" type="submit" value="Advanced Search">
+                    </div>
+                </div>
+        </form>
+    </div>
+</body>
+</html>
