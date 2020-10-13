@@ -1,0 +1,190 @@
+ul {
+  list-style-type: none;
+  overflow: hidden; }
+
+li {
+  float: right; }
+
+li a {
+  color: black;
+  display: block;
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 13px;
+  font-family: "Roboto"; }
+
+li a:hover {
+  text-decoration: underline; }
+
+.grid {
+  height: 22px;
+  position: relative;
+  bottom: 1px; }
+
+.sign_in {
+  background-color: #4885ed;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 7px 10px;
+  position: relative;
+  bottom: 7px;
+  font-weight: bold;
+  font-family: "Roboto"; }
+
+.logo {
+  margin-top: 200px;
+  margin-bottom: 20px;
+  text-align: center; }
+
+.bar {
+  margin: 0 auto;
+  padding-left: 40px;
+  width: 575px;
+  border-radius: 30px;
+  border: 1px solid #c8c8c8;
+  text-align: center; }
+
+.bar:hover {
+  box-shadow: 0px 2px 6px 1px #c8c8c8; }
+
+.bar:focus-within {
+  box-shadow: 0px 2px 6px 1px #c8c8c8;
+  outline: none; }
+
+.searchbar {
+  height: 45px;
+  border: none;
+  width: 480px;
+  font-size: 16px;
+  outline: none; }
+
+.magnifier {
+  height: 20px;
+  position: relative;
+  top: -3px;
+  right: 530px; }
+
+.magnifier_left {
+  height: 20px;
+  position: relative;
+  top: -3px;
+  right: 515px; }
+
+.magnifier_right {
+  height: 25px;
+  position: relative;
+  top: 7px;
+  right: 10px;
+  background-color: white;
+  outline: none; }
+
+.buttons {
+  margin-top: 30px;
+  text-align: center; }
+
+.button {
+  background-color: #f3f3f3;
+  border: none;
+  color: #5f6368;
+  font-size: 15px;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 4px;
+  outline: none; }
+
+.button:hover {
+  border: 1px solid #c8c8c8;
+  padding: 9px 19px;
+  color: black;
+  box-shadow: 0px 1px 6px 0px #c8c8c8; }
+
+.button:focus {
+  border: 1px solid #4885ed;
+  padding: 9px 19px; }
+
+.blue_button {
+  background-color: #4885ed;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 7px 10px;
+  margin: 8px 0px;
+  border-radius: 4px;
+  outline: none;
+  float: right; }
+
+.blue_button:hover {
+  border: none solid #2F5BB7;
+  padding: 7px 10px;
+  color: white;
+  box-shadow: 0px 1px 6px 0px #c8c8c8; }
+
+.blue_button:focus {
+  border: none solid #2F5BB7;
+  padding: 7px 10px; }
+
+.advanced_header {
+  color: #d93025;
+  font-size: 22px;
+  margin: 15px 0px;
+  font-family: "Roboto"; }
+
+.advanced_header2 {
+  color: black;
+  font-size: 17px;
+  margin: 15px 0px;
+  font-family: "Roboto";
+  font-weight: normal; }
+
+.advanced_search_label {
+  color: black;
+  font-size: 13px;
+  margin: 8px 0px;
+  float: left;
+  white-space: nowrap; }
+
+.advanced_search_box {
+  color: #5f6368;
+  border: 1px solid #c8c8c8;
+  font-size: 13px;
+  margin: 8px 0px;
+  width: 100%;
+  float: right; }
+
+.advanced_search_box:focus {
+  outline: #c8c8c8;
+  box-shadow: 0px 0px 0px 0px #4885ed;
+  border: 1px solid #4885ed;
+  font-size: 13px; }
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto; }
+
+.hr_thin {
+  height: 1px;
+  border: 0;
+  color: #f3f3f3;
+  background-color: #f3f3f3;
+  width: 100%; }
+
+/* Change autocomplete styles in WebKit */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 0px solid white;
+  font-family: "Roboto";
+  font-size: 13px;
+  -webkit-text-fill-color: black;
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+  transition: background-color 5000s ease-in-out 0s; }
+
+/*# sourceMappingURL=search_frontend.css.map */
